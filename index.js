@@ -14,7 +14,8 @@ app.use('/user', userRoutes);
 mongoose
   .connect(process.env.DATABASE_URL)
   .then(result => {
-    console.log('connected to database')
+    console.log('connected to database');
+    console.log('app listening on port 3000');
     app.listen(3000);
   })
   .catch(err => {
