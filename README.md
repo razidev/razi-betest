@@ -6,7 +6,7 @@
    ```sh
     docker run --name ms-razi-betest -d -p 3000:3000 razizs/ms-razi-betest:latest
    ```
-2. export crud-api.json to postman and test on postman http://localhost:3000
+2. import crud-api.json to postman and test on postman http://localhost:3000
 
 ### Manuel Installation
 1. Clone the repo
@@ -21,4 +21,4 @@
    ```sh
     docker run -p 3000:3000  razizs/ms-razi-betest:latest
    ```
-4. export crud-api.json to postman and test on postman http://localhost:3000
+4. import crud-api.json to postman and test on postman http://localhost:3000
